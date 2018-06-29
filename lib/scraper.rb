@@ -15,6 +15,10 @@ class Scraper
       end
     end
   end
+
+  def get_page(link)
+    html = open(link)
+  end
   
 end
 
