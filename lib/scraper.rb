@@ -23,5 +23,5 @@ class Scraper
   def get_courses
     @doc.css(".posts-holder p").text
   end
-  
+
 end
